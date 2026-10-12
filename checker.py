@@ -41,14 +41,16 @@ async def discover_links(page):
     await page.wait_for_timeout(2000)
 
     return await page.locator("a[href]").evaluate_all(
-        """anchors => anchors.map(a => ({
-            href: a.getAttribute('href'),
-            text: (a.innerText || a.getAttribute('aria-label') || a.getAttribute('title') || '')
-                .replace(/\\s+/g, ' ').trim(),
-            title: a.getAttribute('title') || '',
-            area: a.closest('header') ? 'header'
-                : (a.closest('footer') ? 'footer' : 'main/page')
-        }))"""
+        """anchors => anchors
+            .filter(a => !a.closest('#CybotCookiebotDialog'))
+            .map(a => ({
+                href: a.getAttribute('href'),
+                text: (a.innerText || a.getAttribute('aria-label') || a.getAttribute('title') || '')
+                    .replace(/\\s+/g, ' ').trim(),
+                title: a.getAttribute('title') || '',
+                area: a.closest('header') ? 'header'
+                    : (a.closest('footer') ? 'footer' : 'main/page')
+            }))"""
     )
 
 
@@ -60,6 +62,7 @@ async def check_one(request, url, semaphore):
                 timeout=REQUEST_TIMEOUT_MS,
                 max_redirects=10,
             )
+
             return {
                 "url": url,
                 "status": response.status,
@@ -67,6 +70,7 @@ async def check_one(request, url, semaphore):
                 "broken": response.status >= 400,
                 "error": None,
             }
+
         except Exception as exc:
             return {
                 "url": url,
@@ -92,6 +96,7 @@ async def main():
 
         for item in raw_links:
             url = normalize_url(item.get("href"), homepage_final_url)
+
             if not url:
                 continue
 
@@ -114,7 +119,10 @@ async def main():
             semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
 
             checks = await asyncio.gather(
-                *(check_one(request, url, semaphore) for url in discovered)
+                *(
+                    check_one(request, url, semaphore)
+                    for url in discovered
+                )
             )
         finally:
             await request.dispose()
@@ -154,7 +162,8 @@ async def main():
 
         for item in broken_links:
             print(
-                f"[BROKEN] status={item['status']} url={item['url']} "
+                f"[BROKEN] status={item['status']} "
+                f"url={item['url']} "
                 f"error={item['error'] or '-'}"
             )
 
