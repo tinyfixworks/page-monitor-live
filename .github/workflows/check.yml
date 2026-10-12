@@ -6,7 +6,11 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: homepage-link-monitor
+  cancel-in-progress: false
 
 jobs:
   check-homepage-links:
@@ -16,6 +20,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,6 +37,18 @@ jobs:
 
       - name: Check homepage links
         run: python checker.py
+
+      - name: Commit latest report for dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update homepage link report"
+            git push
+          else
+            echo "Report has no changes."
+          fi
 
       - name: Upload link report
         if: always()
