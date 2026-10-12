@@ -1,3 +1,4 @@
+
 import asyncio
 import json
 from datetime import datetime, timezone
@@ -37,7 +38,6 @@ async def discover_links(page):
     except PlaywrightTimeoutError:
         pass
 
-    # Allow client-side navigation and campaign links to finish rendering.
     await page.wait_for_timeout(2000)
 
     return await page.locator("a[href]").evaluate_all(
@@ -60,14 +60,11 @@ async def check_one(request, url, semaphore):
                 timeout=REQUEST_TIMEOUT_MS,
                 max_redirects=10,
             )
-            final_url = response.url
-            status = response.status
-            is_broken = status >= 400
             return {
                 "url": url,
-                "status": status,
-                "final_url": final_url,
-                "broken": is_broken,
+                "status": response.status,
+                "final_url": response.url,
+                "broken": response.status >= 400,
                 "error": None,
             }
         except Exception as exc:
@@ -84,12 +81,15 @@ async def main():
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch()
         page = await browser.new_page()
-        raw_links = await discover_links(page)
-        homepage_final_url = page.url
-        await browser.close()
 
-        # Deduplicate by destination, while retaining every place the URL appeared.
+        try:
+            raw_links = await discover_links(page)
+            homepage_final_url = page.url
+        finally:
+            await browser.close()
+
         discovered = {}
+
         for item in raw_links:
             url = normalize_url(item.get("href"), homepage_final_url)
             if not url:
@@ -100,17 +100,24 @@ async def main():
                 "area": item.get("area", "main/page"),
                 "href": item.get("href", ""),
             }
+
             discovered.setdefault(url, {"url": url, "sources": []})
+
             if source not in discovered[url]["sources"]:
                 discovered[url]["sources"].append(source)
 
-        async with await playwright.request.new_context(
+        request = await playwright.request.new_context(
             user_agent="YettelHomepageLinkMonitor/1.0 (+homepage link health check)"
-        ) as request:
+        )
+
+        try:
             semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
+
             checks = await asyncio.gather(
                 *(check_one(request, url, semaphore) for url in discovered)
             )
+        finally:
+            await request.dispose()
 
         checked_links = []
         broken_links = []
@@ -120,7 +127,9 @@ async def main():
                 **result,
                 "sources": discovered[result["url"]]["sources"],
             }
+
             checked_links.append(entry)
+
             if entry["broken"]:
                 broken_links.append(entry)
 
@@ -148,9 +157,6 @@ async def main():
                 f"[BROKEN] status={item['status']} url={item['url']} "
                 f"error={item['error'] or '-'}"
             )
-
-        # Broken links are report findings, not a failed workflow.
-        # The workflow should still upload results.json.
 
 
 if __name__ == "__main__":
