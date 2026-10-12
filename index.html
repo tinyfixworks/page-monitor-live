@@ -1,51 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>URL Monitor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <title>Linkwatch — Yettel Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
-  <main class="dashboard">
-    <header class="header">
-      <div>
-        <h1>URL Monitor</h1>
-        <p>Website health at a glance</p>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="./" aria-label="Linkwatch home">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span>linkwatch<span class="brand-dot">.</span></span>
+      </a>
+      <div class="sidebar-label">MONITORING</div>
+      <div class="nav-item active"><span class="nav-icon">◈</span> Homepage links</div>
+      <div class="sidebar-bottom">
+        <span class="pulse"></span>
+        <div><strong>Scheduled checks</strong><small>Daily · 06:00 UTC</small></div>
       </div>
-      <div class="last-check">
-        <span>Last check</span>
-        <strong id="last-check">Loading...</strong>
-      </div>
-    </header>
+    </aside>
 
-    <section class="summary">
-      <div class="stat"><strong id="healthy-count">—</strong><span>Healthy</span></div>
-      <div class="stat attention"><strong id="attention-count">—</strong><span>Needs attention</span></div>
-      <div class="stat"><strong id="total-count">—</strong><span>Total URLs</span></div>
-      <button class="check-button" id="check-button" type="button">Check now</button>
-    </section>
+    <main class="main">
+      <header class="topbar">
+        <div class="breadcrumbs">MONITORING <span>/</span> <strong>YETTEL HOMEPAGE</strong></div>
+        <a class="source-link" href="https://www.yettel.bg/" target="_blank" rel="noreferrer">Open website <span>↗</span></a>
+      </header>
 
-    <section class="section attention-section">
-      <div class="section-heading">
-        <div><h2>Needs attention</h2><p>These URLs require a closer look.</p></div>
-        <span class="count-badge" id="attention-badge">0</span>
-      </div>
-      <div class="problem-list" id="problem-list"></div>
-    </section>
-
-    <section class="section">
-      <div class="section-heading">
-        <div><h2>All monitored URLs</h2><p>Current status of every monitored page.</p></div>
-        <div class="filters">
-          <button class="filter active" data-filter="all">All</button>
-          <button class="filter" data-filter="problem">Attention</button>
-          <button class="filter" data-filter="healthy">Healthy</button>
+      <section class="page-heading">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-dot"></span> LINK HEALTH OVERVIEW</div>
+          <h1>Homepage monitor</h1>
+          <p>Broken destinations and the page elements they belong to.</p>
         </div>
-      </div>
-      <div class="url-list" id="url-list"></div>
-    </section>
-  </main>
-  <script src="app.js"></script>
+        <div id="last-check" class="last-check"><span class="status-dot"></span><span>Loading latest report…</span></div>
+      </section>
+
+      <section id="load-error" class="notice hidden" role="status">
+        <strong>Report unavailable</strong>
+        <span>Could not load results.json. Run the scheduled workflow once and check that GitHub Pages is enabled.</span>
+      </section>
+
+      <section class="stats-grid" aria-label="Link summary">
+        <article class="stat-card">
+          <div class="stat-top"><span>Total checked</span><span class="stat-icon neutral">↗</span></div>
+          <div id="total-count" class="stat-number">—</div>
+          <div class="stat-foot">Unique HTTP(S) destinations</div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-top"><span>Healthy</span><span class="stat-icon good">✓</span></div>
+          <div id="healthy-count" class="stat-number">—</div>
+          <div class="stat-foot">Responding without a detected error</div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-top"><span>Broken</span><span class="stat-icon bad">!</span></div>
+          <div id="broken-count" class="stat-number">—</div>
+          <div class="stat-foot">Definitive HTTP error responses</div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-top"><span>Needs review</span><span class="stat-icon warn">?</span></div>
+          <div id="review-count" class="stat-number">—</div>
+          <div class="stat-foot">Blocked, unavailable or inconclusive</div>
+        </article>
+      </section>
+
+      <section class="report-panel">
+        <div class="panel-heading">
+          <div><h2>Link results</h2><p id="result-caption">Loading link data…</p></div>
+          <a class="download-link" href="results.json" target="_blank" rel="noreferrer">View JSON <span>↗</span></a>
+        </div>
+        <div class="filters">
+          <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Search URL, text, section…" autocomplete="off"></label>
+          <select id="status-filter" aria-label="Filter by status">
+            <option value="all">All results</option>
+            <option value="broken">Broken</option>
+            <option value="review">Needs review</option>
+            <option value="ok">Healthy</option>
+          </select>
+          <select id="area-filter" aria-label="Filter by page area">
+            <option value="all">All page areas</option>
+            <option value="header">Header</option>
+            <option value="main/page">Main / page</option>
+            <option value="footer">Footer</option>
+          </select>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>DESTINATION</th><th>STATUS</th><th>FOUND IN</th><th>LINK CONTENT</th><th></th></tr></thead>
+            <tbody id="results-body"><tr><td colspan="5" class="empty-cell">Loading results…</td></tr></tbody>
+          </table>
+        </div>
+        <div class="table-footer"><span id="showing-count">—</span><span>Latest report · automatically updated</span></div>
+      </section>
+      <footer class="footer-note">Linkwatch <span>·</span> Automated homepage link checks</footer>
+    </main>
+  </div>
+
+  <dialog id="details-dialog" class="details-dialog">
+    <div class="dialog-head"><div><div class="eyebrow">LINK DETAILS</div><h2 id="dialog-title">Link source</h2></div><button id="close-dialog" class="close-button" aria-label="Close details">×</button></div>
+    <div id="dialog-content"></div>
+  </dialog>
 </body>
 </html>
