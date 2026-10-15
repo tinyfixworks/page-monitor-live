@@ -1,6 +1,5 @@
-# Yettel Homepage Link Monitor — update
+# Page Link Monitor — update
 
-This update checks links discovered dynamically on `https://www.yettel.bg/`.
 It does not crawl the linked pages for further links. It requests each discovered
 HTTP(S) destination only to check its response.
 
@@ -12,17 +11,6 @@ HTTP(S) destination only to check its response.
 
 `urls.json` is no longer used by this checker. It can remain in the repository,
 but the new checker discovers the current links from the homepage each run.
-
-## Run it
-
-1. Open the repository on GitHub.
-2. Open each file listed above and choose the pencil (Edit) action.
-3. Replace the file contents with the matching file from this package.
-4. Commit the changes.
-5. Open **Actions → Yettel Homepage Link Monitor → Run workflow** to test it.
-6. Open the completed run and download the `yettel-homepage-link-report` artifact.
-   It contains `results.json`, including broken links and the page areas where
-   those links were found.
 
 The scheduled run is daily at 06:00 UTC. GitHub Actions schedules can start late
 when GitHub is busy. Change the cron expression in `check.yml` if needed.
