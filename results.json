@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-16T06:18:39.971014+00:00",
+  "checked_at": "2026-10-17T06:14:44.814807+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 219,
@@ -257,7 +257,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=5c977103-054b-452b-a68f-24ba301584d6&client_id=my-yettel-web-moid&code_challenge=a9f2fb41-f6eb-4104-9014-a04c82266a10&asid=prodmy-1",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=48d41627-cc76-472d-bd68-387ccd7b134a&client_id=my-yettel-web-moid&code_challenge=24a529d4-8514-4245-be8f-03405cfddebe&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3080,9 +3080,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/novite-apple-iphone-18-series",
+      "url": "https://www.yettel.bg/bg/novite-apple-iphone-duo",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/novite-apple-iphone-18-series",
+      "final_url": "https://www.yettel.bg/bg/novite-apple-iphone-duo",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3095,12 +3095,12 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "iphone duo",
-              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-10/iphone-duo-home-banner-desktop_1.png?itok=vN8kCblr"
+              "alt": "iPhone Duo - Поръчай предварително тук",
+              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-10/iphone-duo-preorder-home-banner-desktop_0.png?itok=duJ3zTK5"
             }
           ],
           "selector": "div.carousel-banners-container.carousel-instance > div.carousel-container > div.carousel-banners-wrapper > div.banner > a.carousel-banners-responsive-link",
-          "href": "/bg/novite-apple-iphone-18-series"
+          "href": "/bg/novite-apple-iphone-duo"
         }
       ]
     },
@@ -3556,7 +3556,7 @@
           "images": [
             {
               "alt": "Device Image",
-              "src": "https://web.yettel.bg/sites/default/files/data/public/50998974/50998974_1.png"
+              "src": "https://www.yettel.bg/sites/default/files/data/public/50998974/50998974_1.png"
             }
           ],
           "selector": "div#slider-smartphones > div.devices-slider-wrapper > div.devices-slider-device > a.device-card",
