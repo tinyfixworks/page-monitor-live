@@ -1,13 +1,39 @@
 {
-  "checked_at": "2026-10-19T06:22:03.512580+00:00",
+  "checked_at": "2026-10-20T06:19:06.027173+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 219,
   "checked_link_count": 166,
   "broken_link_count": 0,
-  "review_link_count": 0,
+  "review_link_count": 1,
   "broken_links": [],
-  "review_links": [],
+  "review_links": [
+    {
+      "url": "https://www.instagram.com/yettel/",
+      "status": 429,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
+      "broken": false,
+      "classification": "review",
+      "error": null,
+      "sources": [
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "Instagram",
+              "src": "https://www.yettel.bg/sites/default/files/inline-images/instagram-white.png"
+            }
+          ],
+          "selector": "div.content > div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > a",
+          "href": "https://www.instagram.com/yettel/"
+        }
+      ]
+    }
+  ],
   "all_links": [
     {
       "url": "https://www.yettel.bg/",
@@ -257,7 +283,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=68a296af-3463-4207-babf-a2cba98e4046&client_id=my-yettel-web-moid&code_challenge=c23e4796-d74e-480e-838a-6af4a1e5e997&asid=prodmy-1",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=5104295c-757b-4d70-affe-6ee3e5476458&client_id=my-yettel-web-moid&code_challenge=9e77b24e-14d8-436c-a7a8-3f3babba4676&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1530,8 +1556,8 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "TV 3x0",
-              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-TV-3x0.png"
+              "alt": "TV Xiaomi - 3 месеца по 0 евро",
+              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-TV-3x0_0.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
@@ -3305,9 +3331,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22brand%22%2C%22values%22%3A%5B%22Google%20Pixel%22%5D%7D%5D",
+      "url": "https://insurance.yettel.bg/zastrahovka-imushtestvo",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22brand%22%2C%22values%22%3A%5B%22Google%20Pixel%22%5D%7D%5D",
+      "final_url": "https://insurance.yettel.bg/zastrahovka-imushtestvo/",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3320,19 +3346,19 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "pixel 11",
-              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-Google%20Pixles%2011.png"
+              "alt": "застраховки OneClick  - 10% имущество",
+              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-InsurancePromoOct1.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22brand%22%2C%22values%22%3A%5B%22Google%20Pixel%22%5D%7D%5D"
+          "href": "https://insurance.yettel.bg/zastrahovka-imushtestvo"
         }
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/eshop/devices/tablets/samsung/samsung-galaxy-tab-s12-plus-5g?exact-color=%23777777&storage=256GB&intent=NEW_ACTIVATION&paymentType=LEASE&planId=47212-26446",
+      "url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22bundle-offer-e-shop-october-2026%22%5D%7D%5D",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/devices/tablets/samsung/samsung-galaxy-tab-s12-plus-5g?exact-color=%23777777&storage=256GB&intent=NEW_ACTIVATION&paymentType=LEASE&planId=47212-26446",
+      "final_url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22bundle-offer-e-shop-october-2026%22%5D%7D%5D",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3345,12 +3371,12 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "Samsung tab S12",
-              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-Samsung%20Galaxy%20Tab%20S12.png"
+              "alt": "комплекти Xiaomi",
+              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-xiaomi-online-exclusive-bundles.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://www.yettel.bg/bg/eshop/devices/tablets/samsung/samsung-galaxy-tab-s12-plus-5g?exact-color=%23777777&storage=256GB&intent=NEW_ACTIVATION&paymentType=LEASE&planId=47212-26446"
+          "href": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22bundle-offer-e-shop-october-2026%22%5D%7D%5D"
         }
       ]
     },
@@ -3926,10 +3952,10 @@
     },
     {
       "url": "https://www.instagram.com/yettel/",
-      "status": 200,
+      "status": 429,
       "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
       "broken": false,
-      "classification": "ok",
+      "classification": "review",
       "error": null,
       "sources": [
         {
