@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-20T06:19:06.027173+00:00",
+  "checked_at": "2026-10-21T06:20:39.642593+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 219,
@@ -283,7 +283,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=5104295c-757b-4d70-affe-6ee3e5476458&client_id=my-yettel-web-moid&code_challenge=9e77b24e-14d8-436c-a7a8-3f3babba4676&asid=prodmy-2",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=c801a802-52de-44d4-8c24-0237bf79cf58&client_id=my-yettel-web-moid&code_challenge=9a01a6ff-0241-4265-94f0-826d03ed7818&asid=prodmy-1",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3122,7 +3122,7 @@
           "images": [
             {
               "alt": "iPhone Duo - Поръчай предварително тук",
-              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-10/iphone-duo-preorder-home-banner-desktop_0.png?itok=duJ3zTK5"
+              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-10/iphone-duo-preorder-home-ds.png?itok=tzc1XKfp"
             }
           ],
           "selector": "div.carousel-banners-container.carousel-instance > div.carousel-container > div.carousel-banners-wrapper > div.banner > a.carousel-banners-responsive-link",
