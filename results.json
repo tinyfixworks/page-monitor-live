@@ -1,13 +1,39 @@
 {
-  "checked_at": "2026-10-23T06:20:51.537699+00:00",
+  "checked_at": "2026-10-24T06:16:41.651732+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
-  "discovered_link_count": 219,
-  "checked_link_count": 166,
+  "discovered_link_count": 218,
+  "checked_link_count": 165,
   "broken_link_count": 0,
-  "review_link_count": 0,
+  "review_link_count": 1,
   "broken_links": [],
-  "review_links": [],
+  "review_links": [
+    {
+      "url": "https://www.instagram.com/yettel/",
+      "status": 429,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
+      "broken": false,
+      "classification": "review",
+      "error": null,
+      "sources": [
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "Instagram",
+              "src": "https://www.yettel.bg/sites/default/files/inline-images/instagram-white.png"
+            }
+          ],
+          "selector": "div.content > div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > a",
+          "href": "https://www.instagram.com/yettel/"
+        }
+      ]
+    }
+  ],
   "all_links": [
     {
       "url": "https://www.yettel.bg/",
@@ -257,7 +283,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=8b51bc40-7398-41c2-ba0e-a0c848905255&client_id=my-yettel-web-moid&code_challenge=8cd0b699-10c1-4076-a28a-2a8cd83c036e&asid=prodmy-2",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=b28eb108-524d-4cbb-9f40-ffffd2379fe7&client_id=my-yettel-web-moid&code_challenge=d344e2bd-5b22-4538-af83-7542d543af73&asid=prodmy-1",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3080,31 +3106,6 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/novite-apple-iphone-duo",
-      "status": 200,
-      "final_url": "https://www.yettel.bg/bg/novite-apple-iphone-duo",
-      "broken": false,
-      "classification": "ok",
-      "error": null,
-      "sources": [
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "iPhone Duo - Поръчай предварително тук",
-              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-10/iphone-duo-preorder-home-ds.png?itok=tzc1XKfp"
-            }
-          ],
-          "selector": "div.carousel-banners-container.carousel-instance > div.carousel-container > div.carousel-banners-wrapper > div.banner > a.carousel-banners-responsive-link",
-          "href": "/bg/novite-apple-iphone-duo"
-        }
-      ]
-    },
-    {
       "url": "https://www.yettel.bg/bg/eshop/landing/esenni-oferti-ot-yettel",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/eshop/landing/esenni-oferti-ot-yettel",
@@ -3926,10 +3927,10 @@
     },
     {
       "url": "https://www.instagram.com/yettel/",
-      "status": 200,
+      "status": 429,
       "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
       "broken": false,
-      "classification": "ok",
+      "classification": "review",
       "error": null,
       "sources": [
         {
