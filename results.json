@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-28T06:27:29.436679+00:00",
+  "checked_at": "2026-10-29T06:29:08.635608+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 219,
-  "checked_link_count": 168,
+  "checked_link_count": 166,
   "broken_link_count": 0,
   "review_link_count": 0,
   "broken_links": [],
@@ -42,7 +42,7 @@
     {
       "url": "https://b2b.yettel.bg",
       "status": 200,
-      "final_url": "https://b2b.yettel.bg/",
+      "final_url": "https://b2b.yettel.bg/bg",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -257,7 +257,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=362c4f9a-9b86-4ff0-a04e-29f289ac495c&client_id=my-yettel-web-moid&code_challenge=e046064a-2e14-444d-9843-9aaea22fe176&asid=prodmy-1",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=f1b853dc-2d24-4177-98c4-971a7493b9c8&client_id=my-yettel-web-moid&code_challenge=036fb9be-44b3-4901-8f69-6c49bd4029ce&asid=prodmy-1",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -277,7 +277,7 @@
     {
       "url": "https://id.yettel.bg/oauth/logout?post_logout_redirect_uri=https%3A%2F%2Fwww.yettel.bg%2Fbg&client_id=eshop-digital-web-portal-moid&login_code=null",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/logout?post_logout_redirect_uri=https%3A%2F%2Fwww.yettel.bg%2Fbg&client_id=eshop-digital-web-portal-moid&login_code=null",
+      "final_url": "https://www.yettel.bg/bg",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1625,7 +1625,7 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
+      "url": "https://www.yettel.bg/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
       "broken": false,
@@ -1644,8 +1644,8 @@
               "src": "https://www.yettel.bg/sites/default/files/2025-03/tv-more-info.png"
             }
           ],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item.menu-item--expanded > a.nav-link.nav-link--faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
-          "href": "/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item.menu-item--expanded > a.nav-link.nav-link--bg-faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
+          "href": "/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
         },
         {
           "text": "Въпроси и отговори",
@@ -1654,8 +1654,8 @@
           "section": "Header menu",
           "element_type": "text/link",
           "images": [],
-          "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
-          "href": "/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
+          "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
+          "href": "/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
         }
       ]
     },
@@ -2576,6 +2576,16 @@
           "images": [],
           "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-kontakti",
           "href": "/bg/kontakti"
+        },
+        {
+          "text": "Контакти",
+          "title": "",
+          "area": "main/page",
+          "section": "Footer Menu",
+          "element_type": "text/link",
+          "images": [],
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-kontakti",
+          "href": "/bg/kontakti"
         }
       ]
     },
@@ -2880,6 +2890,16 @@
           "element_type": "text/link",
           "images": [],
           "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-karta-na-pokritie",
+          "href": "/bg/karta-na-pokritie"
+        },
+        {
+          "text": "Карти на покритието",
+          "title": "",
+          "area": "main/page",
+          "section": "Footer Privacy Links",
+          "element_type": "text/link",
+          "images": [],
+          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--bg-karta-na-pokritie",
           "href": "/bg/karta-na-pokritie"
         }
       ]
@@ -3735,7 +3755,7 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel",
+      "url": "https://www.yettel.bg/bg/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel",
       "broken": false,
@@ -3749,13 +3769,13 @@
           "section": "Footer Menu",
           "element_type": "text/link",
           "images": [],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--arkhiv-arkhiv-chastni-klienti-abonamentni-planove-na-yettel",
-          "href": "/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel"
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-arkhiv-arkhiv-chastni-klienti-abonamentni-planove-na-yettel",
+          "href": "/bg/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel"
         }
       ]
     },
     {
-      "url": "https://www.yettel.bg/faqs/planove-faq",
+      "url": "https://www.yettel.bg/bg/faqs/planove-faq",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/faqs/planove-faq",
       "broken": false,
@@ -3769,13 +3789,13 @@
           "section": "Footer Menu",
           "element_type": "text/link",
           "images": [],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--faqs-planove-faq",
-          "href": "/faqs/planove-faq"
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-faqs-planove-faq",
+          "href": "/bg/faqs/planove-faq"
         }
       ]
     },
     {
-      "url": "https://www.yettel.bg/faqs/mobilen-internet-faq",
+      "url": "https://www.yettel.bg/bg/faqs/mobilen-internet-faq",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/faqs/mobilen-internet-faq",
       "broken": false,
@@ -3789,8 +3809,8 @@
           "section": "Footer Menu",
           "element_type": "text/link",
           "images": [],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--faqs-mobilen-internet-faq",
-          "href": "/faqs/mobilen-internet-faq"
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-faqs-mobilen-internet-faq",
+          "href": "/bg/faqs/mobilen-internet-faq"
         }
       ]
     },
@@ -3811,26 +3831,6 @@
           "images": [],
           "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-eshop-service-status",
           "href": "/bg/eshop/service-status"
-        }
-      ]
-    },
-    {
-      "url": "https://www.yettel.bg/kontakti",
-      "status": 200,
-      "final_url": "https://www.yettel.bg/bg/kontakti",
-      "broken": false,
-      "classification": "ok",
-      "error": null,
-      "sources": [
-        {
-          "text": "Контакти",
-          "title": "",
-          "area": "main/page",
-          "section": "Footer Menu",
-          "element_type": "text/link",
-          "images": [],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--kontakti",
-          "href": "/kontakti"
         }
       ]
     },
@@ -3995,7 +3995,7 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/poveritelnost",
+      "url": "https://www.yettel.bg/bg/poveritelnost",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/poveritelnost",
       "broken": false,
@@ -4009,13 +4009,13 @@
           "section": "Footer Privacy Links",
           "element_type": "text/link",
           "images": [],
-          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--poveritelnost",
-          "href": "/poveritelnost"
+          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--bg-poveritelnost",
+          "href": "/bg/poveritelnost"
         }
       ]
     },
     {
-      "url": "https://www.yettel.bg/poveritelnost/biskvitki",
+      "url": "https://www.yettel.bg/bg/poveritelnost/biskvitki",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/poveritelnost/biskvitki",
       "broken": false,
@@ -4029,28 +4029,8 @@
           "section": "Footer Privacy Links",
           "element_type": "text/link",
           "images": [],
-          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--poveritelnost-biskvitki",
-          "href": "/poveritelnost/biskvitki"
-        }
-      ]
-    },
-    {
-      "url": "https://www.yettel.bg/karta-na-pokritie",
-      "status": 200,
-      "final_url": "https://www.yettel.bg/bg/karta-na-pokritie",
-      "broken": false,
-      "classification": "ok",
-      "error": null,
-      "sources": [
-        {
-          "text": "Карти на покритието",
-          "title": "",
-          "area": "main/page",
-          "section": "Footer Privacy Links",
-          "element_type": "text/link",
-          "images": [],
-          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--karta-na-pokritie",
-          "href": "/karta-na-pokritie"
+          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--bg-poveritelnost-biskvitki",
+          "href": "/bg/poveritelnost/biskvitki"
         }
       ]
     }
