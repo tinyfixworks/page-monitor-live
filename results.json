@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T06:28:58.806639+00:00",
+  "checked_at": "2026-10-31T06:29:12.688047+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 219,
@@ -257,7 +257,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=db79f285-f255-411a-bf83-1d5b40635d1b&client_id=my-yettel-web-moid&code_challenge=dfb51408-dffc-48db-abb1-a1e5f3559dac&asid=prodmy-1",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=d8fa874c-4494-46a4-b9aa-b80f71373547&client_id=my-yettel-web-moid&code_challenge=d0c49e2b-b7fe-4c49-9d2d-b9d2c0af907d&asid=prodmy-1",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3305,9 +3305,9 @@
       ]
     },
     {
-      "url": "https://insurance.yettel.bg/zastrahovka-imushtestvo",
+      "url": "https://www.yettel.bg/bg/go-plus/smart-up",
       "status": 200,
-      "final_url": "https://insurance.yettel.bg/zastrahovka-imushtestvo/",
+      "final_url": "https://www.yettel.bg/bg/go-plus/smart-up",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3320,12 +3320,12 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "застраховки OneClick  - 10% имущество",
-              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-InsurancePromoOct1.png"
+              "alt": "Go+ Smart Up",
+              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-SmartUp-oct%20%281%29.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://insurance.yettel.bg/zastrahovka-imushtestvo"
+          "href": "https://www.yettel.bg/bg/go-plus/smart-up"
         }
       ]
     },
