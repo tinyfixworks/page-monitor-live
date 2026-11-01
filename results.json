@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T06:29:12.688047+00:00",
+  "checked_at": "2026-11-01T06:33:20.635085+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 219,
@@ -257,7 +257,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=d8fa874c-4494-46a4-b9aa-b80f71373547&client_id=my-yettel-web-moid&code_challenge=d0c49e2b-b7fe-4c49-9d2d-b9d2c0af907d&asid=prodmy-1",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=5b11a580-c5d2-49c4-ac89-81d281165c88&client_id=my-yettel-web-moid&code_challenge=74410ccf-c7b2-4e0c-a897-34f1718d036c&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
