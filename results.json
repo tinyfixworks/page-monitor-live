@@ -1,13 +1,39 @@
 {
-  "checked_at": "2026-11-01T06:33:20.635085+00:00",
+  "checked_at": "2026-11-02T06:54:02.452089+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 219,
   "checked_link_count": 166,
   "broken_link_count": 0,
-  "review_link_count": 0,
+  "review_link_count": 1,
   "broken_links": [],
-  "review_links": [],
+  "review_links": [
+    {
+      "url": "https://www.instagram.com/yettel/",
+      "status": 429,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
+      "broken": false,
+      "classification": "review",
+      "error": null,
+      "sources": [
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "Instagram",
+              "src": "https://www.yettel.bg/sites/default/files/inline-images/instagram-white.png"
+            }
+          ],
+          "selector": "div.content > div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > a",
+          "href": "https://www.instagram.com/yettel/"
+        }
+      ]
+    }
+  ],
   "all_links": [
     {
       "url": "https://www.yettel.bg/",
@@ -257,7 +283,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=5b11a580-c5d2-49c4-ac89-81d281165c88&client_id=my-yettel-web-moid&code_challenge=74410ccf-c7b2-4e0c-a897-34f1718d036c&asid=prodmy-2",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=0704d585-1197-427f-b089-9bae1b08cedd&client_id=my-yettel-web-moid&code_challenge=e43e04a5-ccf0-4161-b401-51097b86033a&asid=prodmy-1",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3926,10 +3952,10 @@
     },
     {
       "url": "https://www.instagram.com/yettel/",
-      "status": 200,
+      "status": 429,
       "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
       "broken": false,
-      "classification": "ok",
+      "classification": "review",
       "error": null,
       "sources": [
         {
