@@ -1,39 +1,13 @@
 {
-  "checked_at": "2026-11-02T06:54:02.452089+00:00",
+  "checked_at": "2026-11-03T06:45:38.095389+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 219,
-  "checked_link_count": 166,
+  "checked_link_count": 165,
   "broken_link_count": 0,
-  "review_link_count": 1,
+  "review_link_count": 0,
   "broken_links": [],
-  "review_links": [
-    {
-      "url": "https://www.instagram.com/yettel/",
-      "status": 429,
-      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
-      "broken": false,
-      "classification": "review",
-      "error": null,
-      "sources": [
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "Instagram",
-              "src": "https://www.yettel.bg/sites/default/files/inline-images/instagram-white.png"
-            }
-          ],
-          "selector": "div.content > div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > a",
-          "href": "https://www.instagram.com/yettel/"
-        }
-      ]
-    }
-  ],
+  "review_links": [],
   "all_links": [
     {
       "url": "https://www.yettel.bg/",
@@ -283,7 +257,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=0704d585-1197-427f-b089-9bae1b08cedd&client_id=my-yettel-web-moid&code_challenge=e43e04a5-ccf0-4161-b401-51097b86033a&asid=prodmy-1",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=5d10f550-bdf2-48d6-b379-23b7a592ebb4&client_id=my-yettel-web-moid&code_challenge=2fb68da0-1425-435d-86a6-2996b3b93379&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3106,6 +3080,31 @@
       ]
     },
     {
+      "url": "https://www.yettel.bg/bg/eshop/landing/black-friday-oferti",
+      "status": 200,
+      "final_url": "https://www.yettel.bg/bg/eshop/landing/black-friday-oferti",
+      "broken": false,
+      "classification": "ok",
+      "error": null,
+      "sources": [
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "Оферти - черен петък",
+              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-11/home-banner-desktop-BF.png?itok=LgXKIUyV"
+            }
+          ],
+          "selector": "div.carousel-banners-container.carousel-instance > div.carousel-container > div.carousel-banners-wrapper > div.banner > a.carousel-banners-responsive-link",
+          "href": "https://www.yettel.bg/bg/eshop/landing/black-friday-oferti"
+        }
+      ]
+    },
+    {
       "url": "https://www.yettel.bg/bg/eshop/devices/smartphones/apple/iphone-duo?exact-color=%233F4955&storage=512GB&intent=NEW_ACTIVATION&paymentType=LEASE&planId=48701-26681-24",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/eshop/devices/smartphones/apple/iphone-duo?exact-color=%233F4955&storage=512GB&intent=NEW_ACTIVATION&paymentType=LEASE&planId=48701-26681-24",
@@ -3127,31 +3126,6 @@
           ],
           "selector": "div.carousel-banners-container.carousel-instance > div.carousel-container > div.carousel-banners-wrapper > div.banner > a.carousel-banners-responsive-link",
           "href": "https://www.yettel.bg/bg/eshop/devices/smartphones/apple/iphone-duo?exact-color=%233F4955&storage=512GB&intent=NEW_ACTIVATION&paymentType=LEASE&planId=48701-26681-24"
-        }
-      ]
-    },
-    {
-      "url": "https://www.yettel.bg/bg/eshop/landing/esenni-oferti-ot-yettel",
-      "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/landing/esenni-oferti-ot-yettel",
-      "broken": false,
-      "classification": "ok",
-      "error": null,
-      "sources": [
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "октомврийски оферти",
-              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-10/homep-atl.png?itok=IjErKpyK"
-            }
-          ],
-          "selector": "div.carousel-banners-container.carousel-instance > div.carousel-container > div.carousel-banners-wrapper > div.banner > a.carousel-banners-responsive-link",
-          "href": "https://www.yettel.bg/bg/eshop/landing/esenni-oferti-ot-yettel"
         }
       ]
     },
@@ -3266,9 +3240,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/eshop/landing/oferta-iphone-17-i-motorola-online",
+      "url": "https://www.yettel.bg/bg/eshop/landing/black-friday-online-oferti",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/landing/oferta-iphone-17-i-motorola-online",
+      "final_url": "https://www.yettel.bg/bg/eshop/landing/black-friday-online-oferti",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3281,12 +3255,12 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "Онлайн оферти",
-              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-10/e-shop-banner-desktop_1.png?itok=t9mFZB8-"
+              "alt": "Онлайн оферти - черен петък",
+              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-11/e-shop-banner-desktop-online-exclusive-bf.png?itok=dhrt47Uo"
             }
           ],
           "selector": "div.container-fluid.full-width > div.full-width-banner > div > div.d-none.d-md-block > a",
-          "href": "https://www.yettel.bg/bg/eshop/landing/oferta-iphone-17-i-motorola-online"
+          "href": "https://www.yettel.bg/bg/eshop/landing/black-friday-online-oferti"
         },
         {
           "text": "",
@@ -3296,19 +3270,19 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "Онлайн оферти",
-              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-10/e-shop-banner-mobile_1.png?itok=Ioh_82ie"
+              "alt": "Онлайн оферти - черен петък",
+              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-11/e-shop-banner-mobile-online-exclusive-bf.png?itok=_PxN3P8R"
             }
           ],
           "selector": "div.container-fluid.full-width > div.full-width-banner > div > div.d-md-none > a",
-          "href": "https://www.yettel.bg/bg/eshop/landing/oferta-iphone-17-i-motorola-online"
+          "href": "https://www.yettel.bg/bg/eshop/landing/black-friday-online-oferti"
         }
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/eshop/landing/huawei-oferti-s-otstypka",
+      "url": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/landing/huawei-oferti-s-otstypka",
+      "final_url": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3321,12 +3295,22 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "huawei watch 6 оферти",
-              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-huawei-watch-6-series.png"
+              "alt": "huawei watch d3",
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers1-banner-huawei-launch_0.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://www.yettel.bg/bg/eshop/landing/huawei-oferti-s-otstypka"
+          "href": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370"
+        },
+        {
+          "text": "Виж повече",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "text/link",
+          "images": [],
+          "selector": "div.text-and-image-component.layout-75_25 > div.text-and-image-left.col-12 > div.button-space > div.button-wrapper.d-inline-block > a",
+          "href": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370"
         }
       ]
     },
@@ -3347,7 +3331,7 @@
           "images": [
             {
               "alt": "Go+ Smart Up",
-              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-SmartUp-oct%20%281%29.png"
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers2-banner-SmartUp-oct.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
@@ -3356,9 +3340,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22bundle-offer-e-shop-october-2026%22%5D%7D%5D",
+      "url": "https://www.yettel.bg/bg/eshop/devices/smartphones/oppo/oppo-find-x10-pro-max-5g?exact-color=%23777777&storage=512GB&intent=NEW_ACTIVATION&paymentType=CASH&planId=48701-26681-24",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22bundle-offer-e-shop-october-2026%22%5D%7D%5D",
+      "final_url": "https://www.yettel.bg/bg/eshop/devices/smartphones/oppo/oppo-find-x10-pro-max-5g?exact-color=%23777777&storage=512GB&intent=NEW_ACTIVATION&paymentType=CASH&planId=48701-26681-24",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3371,12 +3355,12 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "комплекти Xiaomi",
-              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-xiaomi-online-exclusive-bundles.png"
+              "alt": "oppo x10",
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-oppo.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22bundle-offer-e-shop-october-2026%22%5D%7D%5D"
+          "href": "https://www.yettel.bg/bg/eshop/devices/smartphones/oppo/oppo-find-x10-pro-max-5g?exact-color=%23777777&storage=512GB&intent=NEW_ACTIVATION&paymentType=CASH&planId=48701-26681-24"
         }
       ]
     },
@@ -3524,7 +3508,7 @@
       "error": null,
       "sources": [
         {
-          "text": "MOTOROLA Razr Fold 5G 512GB\n79.99 €/мес.\n70.59 €/мес.\nс Total Unlimited MAX",
+          "text": "MOTOROLA Razr Fold 5G 512GB\n70.59 €/мес.\n63.99 €/мес.\nс Total Unlimited MAX",
           "title": "",
           "area": "main/page",
           "section": "",
@@ -3574,7 +3558,7 @@
       "error": null,
       "sources": [
         {
-          "text": "Realme GT 7 Dream Edition 5G 512GB\n23.99 €/мес.\n23.99 €/мес.\nс Total Unlimited MAX",
+          "text": "Realme GT 7 Dream Edition 5G 512GB\n23.99 €/мес.\n14.59 €/мес.\nс Total Unlimited MAX",
           "title": "",
           "area": "main/page",
           "section": "",
@@ -3627,26 +3611,6 @@
           ],
           "selector": "div.container-fluid.full-width > div.full-width-banner > div > div.d-md-none > a",
           "href": "/bg/vyvezhdane-na-evroto"
-        }
-      ]
-    },
-    {
-      "url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMART_WEARABLES&paymentType=LEASE&planType=no-plan&filter=%5B%7B%22code%22%3A%22brand%22%2C%22values%22%3A%5B%22HUAWEI%22%5D%7D%2C%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22monthly-offer%22%5D%7D%5D",
-      "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMART_WEARABLES&paymentType=LEASE&planType=no-plan&filter=%5B%7B%22code%22%3A%22brand%22%2C%22values%22%3A%5B%22HUAWEI%22%5D%7D%2C%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22monthly-offer%22%5D%7D%5D",
-      "broken": false,
-      "classification": "ok",
-      "error": null,
-      "sources": [
-        {
-          "text": "Виж повече",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "text/link",
-          "images": [],
-          "selector": "div.text-and-image-component.layout-75_25 > div.text-and-image-left.col-12 > div.button-space > div.button-wrapper.d-inline-block > a",
-          "href": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMART_WEARABLES&paymentType=LEASE&planType=no-plan&filter=%5B%7B%22code%22%3A%22brand%22%2C%22values%22%3A%5B%22HUAWEI%22%5D%7D%2C%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22monthly-offer%22%5D%7D%5D"
         }
       ]
     },
@@ -3952,10 +3916,10 @@
     },
     {
       "url": "https://www.instagram.com/yettel/",
-      "status": 429,
+      "status": 200,
       "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
       "broken": false,
-      "classification": "review",
+      "classification": "ok",
       "error": null,
       "sources": [
         {
