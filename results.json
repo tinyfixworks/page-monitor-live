@@ -1,13 +1,39 @@
 {
-  "checked_at": "2026-11-03T06:45:38.095389+00:00",
+  "checked_at": "2026-11-04T06:49:52.160423+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 219,
-  "checked_link_count": 165,
+  "checked_link_count": 166,
   "broken_link_count": 0,
-  "review_link_count": 0,
+  "review_link_count": 1,
   "broken_links": [],
-  "review_links": [],
+  "review_links": [
+    {
+      "url": "https://www.instagram.com/yettel/",
+      "status": 429,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
+      "broken": false,
+      "classification": "review",
+      "error": null,
+      "sources": [
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "Instagram",
+              "src": "https://www.yettel.bg/sites/default/files/inline-images/instagram-white.png"
+            }
+          ],
+          "selector": "div.content > div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > a",
+          "href": "https://www.instagram.com/yettel/"
+        }
+      ]
+    }
+  ],
   "all_links": [
     {
       "url": "https://www.yettel.bg/",
@@ -257,7 +283,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=5d10f550-bdf2-48d6-b379-23b7a592ebb4&client_id=my-yettel-web-moid&code_challenge=2fb68da0-1425-435d-86a6-2996b3b93379&asid=prodmy-2",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=b1596724-7fb3-4777-abf1-00aa6beda26b&client_id=my-yettel-web-moid&code_challenge=2d7cd0ba-f1be-4fe2-b2a6-e5b9920d3005&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1521,21 +1547,6 @@
           ],
           "selector": "div.field__items > div.field__item > div.component-margin > div.custom-component.container-fluid > a.text-decoration-none",
           "href": "/bg/tv-internet/paketi-fiksirani-uslugi"
-        },
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "TV Xiaomi - 3 месеца по 0 евро",
-              "src": "https://www.yettel.bg/sites/default/files/2026-10/top-offers-banner-TV-3x0_0.png"
-            }
-          ],
-          "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://www.yettel.bg/bg/tv-internet/paketi-fiksirani-uslugi"
         },
         {
           "text": "Виж повече",
@@ -3296,7 +3307,7 @@
           "images": [
             {
               "alt": "huawei watch d3",
-              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers1-banner-huawei-launch_0.png"
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-huawei-launch.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
@@ -3361,6 +3372,31 @@
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
           "href": "https://www.yettel.bg/bg/eshop/devices/smartphones/oppo/oppo-find-x10-pro-max-5g?exact-color=%23777777&storage=512GB&intent=NEW_ACTIVATION&paymentType=CASH&planId=48701-26681-24"
+        }
+      ]
+    },
+    {
+      "url": "https://www.yettel.bg/bg/rouming/rouming-paketi/paket-drugi-destinacii",
+      "status": 200,
+      "final_url": "https://www.yettel.bg/bg/rouming/rouming-paketi/paket-drugi-destinacii",
+      "broken": false,
+      "classification": "ok",
+      "error": null,
+      "sources": [
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "Роуминг оферта - други държави по света",
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-roaming-others.png"
+            }
+          ],
+          "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
+          "href": "/bg/rouming/rouming-paketi/paket-drugi-destinacii"
         }
       ]
     },
@@ -3916,10 +3952,10 @@
     },
     {
       "url": "https://www.instagram.com/yettel/",
-      "status": 200,
+      "status": 429,
       "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
       "broken": false,
-      "classification": "ok",
+      "classification": "review",
       "error": null,
       "sources": [
         {
