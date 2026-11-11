@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-10T06:48:00.614088+00:00",
+  "checked_at": "2026-11-11T06:50:27.769996+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
-  "discovered_link_count": 219,
-  "checked_link_count": 165,
+  "discovered_link_count": 220,
+  "checked_link_count": 168,
   "broken_link_count": 0,
   "review_link_count": 0,
   "broken_links": [],
@@ -12,7 +12,7 @@
     {
       "url": "https://www.yettel.bg/",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg",
+      "final_url": "https://www.yettel.bg/",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -42,7 +42,7 @@
     {
       "url": "https://b2b.yettel.bg",
       "status": 200,
-      "final_url": "https://b2b.yettel.bg/bg",
+      "final_url": "https://b2b.yettel.bg/",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -72,7 +72,7 @@
     {
       "url": "https://www.yettel.bg/yettel-login",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/yettel-login",
+      "final_url": "https://www.yettel.bg/yettel-login",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -132,7 +132,7 @@
     {
       "url": "https://yettel.bg",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg",
+      "final_url": "https://www.yettel.bg/",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -257,7 +257,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=ee6b5b9e-e8f7-470b-94eb-e424d3b62e0e&client_id=my-yettel-web-moid&code_challenge=68dff500-200a-4f04-885d-f5c939ed0815&asid=prodmy-1",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=789585c8-6a6b-46af-9b99-8aab158956cc&client_id=my-yettel-web-moid&code_challenge=a8cbef39-72f2-4b41-b0d9-a9f93439589a&asid=prodmy-1",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1357,7 +1357,7 @@
     {
       "url": "https://www.yettel.bg/bg/planove-za-domashni-telefoni-home",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/planove/planove-za-domashen-telefon",
+      "final_url": "https://www.yettel.bg/bg/planove-za-domashni-telefoni-home",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1610,9 +1610,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
+      "url": "https://www.yettel.bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
+      "final_url": "https://www.yettel.bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1629,8 +1629,8 @@
               "src": "https://www.yettel.bg/sites/default/files/2025-03/tv-more-info.png"
             }
           ],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item.menu-item--expanded > a.nav-link.nav-link--bg-faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
-          "href": "/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item.menu-item--expanded > a.nav-link.nav-link--faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
+          "href": "/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
         },
         {
           "text": "Въпроси и отговори",
@@ -1639,8 +1639,8 @@
           "section": "Header menu",
           "element_type": "text/link",
           "images": [],
-          "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
-          "href": "/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
+          "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
+          "href": "/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
         }
       ]
     },
@@ -2362,7 +2362,7 @@
     {
       "url": "https://www.yettel.bg/faqs/planove/abonamenti-planove-faq",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/faqs/planove-i-doplnitelni-paketi/abonamentni-planove-vprosi-i-otgovori-yettel",
+      "final_url": "https://www.yettel.bg/faqs/planove/abonamenti-planove-faq",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -2575,16 +2575,6 @@
           "element_type": "text/link",
           "images": [],
           "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-kontakti",
-          "href": "/bg/kontakti"
-        },
-        {
-          "text": "Контакти",
-          "title": "",
-          "area": "main/page",
-          "section": "Footer Menu",
-          "element_type": "text/link",
-          "images": [],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-kontakti",
           "href": "/bg/kontakti"
         }
       ]
@@ -2891,16 +2881,6 @@
           "images": [],
           "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-karta-na-pokritie",
           "href": "/bg/karta-na-pokritie"
-        },
-        {
-          "text": "Карти на покритието",
-          "title": "",
-          "area": "main/page",
-          "section": "Footer Privacy Links",
-          "element_type": "text/link",
-          "images": [],
-          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--bg-karta-na-pokritie",
-          "href": "/bg/karta-na-pokritie"
         }
       ]
     },
@@ -3132,7 +3112,7 @@
     {
       "url": "https://www.yettel.bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE",
+      "final_url": "https://www.yettel.bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3157,7 +3137,7 @@
     {
       "url": "https://www.yettel.bg/ekskluzivna-oferta-v-prilozhenieto-yettel",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/ekskluzivna-oferta-v-prilozhenieto-yettel",
+      "final_url": "https://www.yettel.bg/ekskluzivna-oferta-v-prilozhenieto-yettel",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3397,7 +3377,7 @@
     {
       "url": "https://www.yettel.bg/eshop/offers",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/offers",
+      "final_url": "https://www.yettel.bg/eshop/offers",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3427,7 +3407,7 @@
     {
       "url": "https://www.yettel.bg/eshop/devices/smartphones/samsung/samsung-galaxy-z-fold8-5g-standart?storage=512GB&exact-color=%2339383D&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/devices/smartphones/samsung/samsung-galaxy-z-fold8-5g-standart?storage=512GB&exact-color=%2339383D&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
+      "final_url": "https://www.yettel.bg/eshop/devices/smartphones/samsung/samsung-galaxy-z-fold8-5g-standart?storage=512GB&exact-color=%2339383D&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3452,7 +3432,7 @@
     {
       "url": "https://www.yettel.bg/eshop/devices/smartphones/samsung/samsung-galaxy-z-fold8-ultra-5g-standart?storage=256GB&exact-color=%2339383D&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/devices/smartphones/samsung/samsung-galaxy-z-fold8-ultra-5g-standart?storage=256GB&exact-color=%2339383D&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
+      "final_url": "https://www.yettel.bg/eshop/devices/smartphones/samsung/samsung-galaxy-z-fold8-ultra-5g-standart?storage=256GB&exact-color=%2339383D&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3475,9 +3455,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23CFAC68&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
+      "url": "https://www.yettel.bg/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23000000&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23CFAC68&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
+      "final_url": "https://www.yettel.bg/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23000000&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3491,18 +3471,18 @@
           "images": [
             {
               "alt": "Device Image",
-              "src": "https://www.yettel.bg/sites/default/files/data/public/50999494/50999494_1.png"
+              "src": "https://www.yettel.bg/sites/default/files/data/public/50999492/50999492_1.png"
             }
           ],
           "selector": "div#slider-smartphones > div.devices-slider-wrapper > div.devices-slider-device > a.device-card",
-          "href": "/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23CFAC68&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331"
+          "href": "/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23000000&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331"
         }
       ]
     },
     {
       "url": "https://www.yettel.bg/eshop/devices/smartphones/realme/realme-14-5g?storage=256GB&exact-color=%23BEC1CA&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/devices/smartphones/realme/realme-14-5g?storage=256GB&exact-color=%23BEC1CA&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
+      "final_url": "https://www.yettel.bg/eshop/devices/smartphones/realme/realme-14-5g?storage=256GB&exact-color=%23BEC1CA&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3527,7 +3507,7 @@
     {
       "url": "https://www.yettel.bg/eshop/devices/smartphones/google+pixel/google-pixel-11-pro-5g?storage=256GB&exact-color=%23DADBD6&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/devices/smartphones/google+pixel/google-pixel-11-pro-5g?storage=256GB&exact-color=%23DADBD6&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
+      "final_url": "https://www.yettel.bg/eshop/devices/smartphones/google+pixel/google-pixel-11-pro-5g?storage=256GB&exact-color=%23DADBD6&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3552,7 +3532,7 @@
     {
       "url": "https://www.yettel.bg/eshop/devices/smartphones/motorola/motorola-moto-g77-5-g-256gb?storage=256GB&exact-color=%23000000&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/devices/smartphones/motorola/motorola-moto-g77-5-g-256gb?storage=256GB&exact-color=%23000000&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
+      "final_url": "https://www.yettel.bg/eshop/devices/smartphones/motorola/motorola-moto-g77-5-g-256gb?storage=256GB&exact-color=%23000000&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3745,9 +3725,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel",
+      "url": "https://www.yettel.bg/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel",
+      "final_url": "https://www.yettel.bg/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3759,15 +3739,15 @@
           "section": "Footer Menu",
           "element_type": "text/link",
           "images": [],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-arkhiv-arkhiv-chastni-klienti-abonamentni-planove-na-yettel",
-          "href": "/bg/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel"
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--arkhiv-arkhiv-chastni-klienti-abonamentni-planove-na-yettel",
+          "href": "/arkhiv/arkhiv-chastni-klienti/abonamentni-planove-na-yettel"
         }
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/faqs/planove-faq",
+      "url": "https://www.yettel.bg/faqs/planove-faq",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/faqs/planove-faq",
+      "final_url": "https://www.yettel.bg/faqs/planove-faq",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3779,15 +3759,15 @@
           "section": "Footer Menu",
           "element_type": "text/link",
           "images": [],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-faqs-planove-faq",
-          "href": "/bg/faqs/planove-faq"
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--faqs-planove-faq",
+          "href": "/faqs/planove-faq"
         }
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/faqs/mobilen-internet-faq",
+      "url": "https://www.yettel.bg/faqs/mobilen-internet-faq",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/faqs/mobilen-internet-faq",
+      "final_url": "https://www.yettel.bg/faqs/mobilen-internet-faq",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3799,8 +3779,8 @@
           "section": "Footer Menu",
           "element_type": "text/link",
           "images": [],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-faqs-mobilen-internet-faq",
-          "href": "/bg/faqs/mobilen-internet-faq"
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--faqs-mobilen-internet-faq",
+          "href": "/faqs/mobilen-internet-faq"
         }
       ]
     },
@@ -3825,9 +3805,29 @@
       ]
     },
     {
+      "url": "https://www.yettel.bg/kontakti",
+      "status": 200,
+      "final_url": "https://www.yettel.bg/kontakti",
+      "broken": false,
+      "classification": "ok",
+      "error": null,
+      "sources": [
+        {
+          "text": "Контакти",
+          "title": "",
+          "area": "main/page",
+          "section": "Footer Menu",
+          "element_type": "text/link",
+          "images": [],
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--kontakti",
+          "href": "/kontakti"
+        }
+      ]
+    },
+    {
       "url": "https://www.yettel.bg/coverage-map",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/karta-na-pokritie",
+      "final_url": "https://www.yettel.bg/coverage-map",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3861,6 +3861,31 @@
           "images": [],
           "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-poveritelnost-politika-za-lichnite-danni-na-yettel-blgariya-ead-vvedenie",
           "href": "/bg/poveritelnost/politika-za-lichnite-danni-na-yettel-blgariya-ead/vvedenie"
+        }
+      ]
+    },
+    {
+      "url": "https://www.yettel.bg/sites/default/files/2026-11/brochure%20Black%20Friday%20for%20web%20by%20pages.pdf",
+      "status": 200,
+      "final_url": "https://www.yettel.bg/sites/default/files/2026-11/brochure%20Black%20Friday%20for%20web%20by%20pages.pdf",
+      "broken": false,
+      "classification": "ok",
+      "error": null,
+      "sources": [
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "Footer Menu",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "",
+              "src": "https://www.yettel.bg/sites/default/files/inline-images/brochure-Black-Friday-cover.png"
+            }
+          ],
+          "selector": "div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > p > a",
+          "href": "https://www.yettel.bg/sites/default/files/2026-11/brochure%20Black%20Friday%20for%20web%20by%20pages.pdf"
         }
       ]
     },
@@ -3985,9 +4010,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/poveritelnost",
+      "url": "https://www.yettel.bg/poveritelnost",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/poveritelnost",
+      "final_url": "https://www.yettel.bg/poveritelnost",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3999,15 +4024,15 @@
           "section": "Footer Privacy Links",
           "element_type": "text/link",
           "images": [],
-          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--bg-poveritelnost",
-          "href": "/bg/poveritelnost"
+          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--poveritelnost",
+          "href": "/poveritelnost"
         }
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/poveritelnost/biskvitki",
+      "url": "https://www.yettel.bg/poveritelnost/biskvitki",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/poveritelnost/biskvitki",
+      "final_url": "https://www.yettel.bg/poveritelnost/biskvitki",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -4019,8 +4044,28 @@
           "section": "Footer Privacy Links",
           "element_type": "text/link",
           "images": [],
-          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--bg-poveritelnost-biskvitki",
-          "href": "/bg/poveritelnost/biskvitki"
+          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--poveritelnost-biskvitki",
+          "href": "/poveritelnost/biskvitki"
+        }
+      ]
+    },
+    {
+      "url": "https://www.yettel.bg/karta-na-pokritie",
+      "status": 200,
+      "final_url": "https://www.yettel.bg/karta-na-pokritie",
+      "broken": false,
+      "classification": "ok",
+      "error": null,
+      "sources": [
+        {
+          "text": "Карти на покритието",
+          "title": "",
+          "area": "main/page",
+          "section": "Footer Privacy Links",
+          "element_type": "text/link",
+          "images": [],
+          "selector": "nav#block-bootstrap-subtheme-footerprivacylinks > ul.clearfix.nav > li.nav-item > a.nav-link.nav-link--karta-na-pokritie",
+          "href": "/karta-na-pokritie"
         }
       ]
     }
