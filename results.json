@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T06:50:27.769996+00:00",
+  "checked_at": "2026-11-12T06:52:29.171870+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 220,
@@ -257,7 +257,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=789585c8-6a6b-46af-9b99-8aab158956cc&client_id=my-yettel-web-moid&code_challenge=a8cbef39-72f2-4b41-b0d9-a9f93439589a&asid=prodmy-1",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=fb5a1ede-1c3c-492b-9e1e-3182127e37c2&client_id=my-yettel-web-moid&code_challenge=d46c2024-7362-4d42-b6fe-841a52f352f3&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3455,9 +3455,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23000000&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
+      "url": "https://www.yettel.bg/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23CFAC68&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "status": 200,
-      "final_url": "https://www.yettel.bg/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23000000&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
+      "final_url": "https://www.yettel.bg/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23CFAC68&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3471,11 +3471,11 @@
           "images": [
             {
               "alt": "Device Image",
-              "src": "https://www.yettel.bg/sites/default/files/data/public/50999492/50999492_1.png"
+              "src": "https://www.yettel.bg/sites/default/files/data/public/50999494/50999494_1.png"
             }
           ],
           "selector": "div#slider-smartphones > div.devices-slider-wrapper > div.devices-slider-device > a.device-card",
-          "href": "/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23000000&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331"
+          "href": "/eshop/devices/smartphones/honor/honor-magic8-pro-5g-512gb?storage=512GB&exact-color=%23CFAC68&intent=NEW_ACTIVATION&paymentType=LEASE&planId=45299-26331"
         }
       ]
     },
