@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T13:08:09.601610+00:00",
+  "checked_at": "2026-11-16T14:15:36.631113+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 220,
@@ -9,9 +9,9 @@
   "broken_links": [],
   "review_links": [
     {
-      "url": "https://www.instagram.com/yettel/",
+      "url": "https://www.linkedin.com/company/bulgariayettel",
       "status": 429,
-      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
+      "final_url": "https://www.linkedin.com/company/bulgariayettel",
       "broken": false,
       "classification": "review",
       "error": null,
@@ -24,12 +24,12 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "Instagram",
-              "src": "https://www.yettel.bg/sites/default/files/inline-images/instagram-white.png"
+              "alt": "",
+              "src": "https://www.yettel.bg/sites/default/files/migration/ytl-linkedin.png"
             }
           ],
           "selector": "div.content > div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > a",
-          "href": "https://www.instagram.com/yettel/"
+          "href": "https://www.linkedin.com/company/bulgariayettel"
         }
       ]
     }
@@ -283,7 +283,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=d3332362-9285-4cc5-b77c-11b51a738fe1&client_id=my-yettel-web-moid&code_challenge=4d8af9bf-23fe-47b7-a2e8-b44f25c5ab2b&asid=prodmy-1",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=7bb812a6-c881-4fb4-bd3e-2e12e40af1f1&client_id=my-yettel-web-moid&code_challenge=b1824a49-8fb0-4b69-9aec-100b1399c1a1&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3942,10 +3942,10 @@
     },
     {
       "url": "https://www.linkedin.com/company/bulgariayettel",
-      "status": 200,
+      "status": 429,
       "final_url": "https://www.linkedin.com/company/bulgariayettel",
       "broken": false,
-      "classification": "ok",
+      "classification": "review",
       "error": null,
       "sources": [
         {
@@ -3967,10 +3967,10 @@
     },
     {
       "url": "https://www.instagram.com/yettel/",
-      "status": 429,
+      "status": 200,
       "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
       "broken": false,
-      "classification": "review",
+      "classification": "ok",
       "error": null,
       "sources": [
         {
