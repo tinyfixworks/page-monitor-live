@@ -1,39 +1,13 @@
 {
-  "checked_at": "2026-11-16T14:15:36.631113+00:00",
+  "checked_at": "2026-11-17T15:07:18.266871+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
-  "discovered_link_count": 220,
-  "checked_link_count": 168,
+  "discovered_link_count": 221,
+  "checked_link_count": 167,
   "broken_link_count": 0,
-  "review_link_count": 1,
+  "review_link_count": 0,
   "broken_links": [],
-  "review_links": [
-    {
-      "url": "https://www.linkedin.com/company/bulgariayettel",
-      "status": 429,
-      "final_url": "https://www.linkedin.com/company/bulgariayettel",
-      "broken": false,
-      "classification": "review",
-      "error": null,
-      "sources": [
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "",
-              "src": "https://www.yettel.bg/sites/default/files/migration/ytl-linkedin.png"
-            }
-          ],
-          "selector": "div.content > div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > a",
-          "href": "https://www.linkedin.com/company/bulgariayettel"
-        }
-      ]
-    }
-  ],
+  "review_links": [],
   "all_links": [
     {
       "url": "https://www.yettel.bg/",
@@ -283,7 +257,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=7bb812a6-c881-4fb4-bd3e-2e12e40af1f1&client_id=my-yettel-web-moid&code_challenge=b1824a49-8fb0-4b69-9aec-100b1399c1a1&asid=prodmy-2",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=6cf96388-5158-471f-a916-cecfbee7b633&client_id=my-yettel-web-moid&code_challenge=c5dcacda-c036-482d-b13e-2a57ec2bcbff&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1087,6 +1061,21 @@
           "images": [],
           "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-ekskluzivna-oferta-v-prilozhenieto-yettel",
           "href": "/bg/ekskluzivna-oferta-v-prilozhenieto-yettel"
+        },
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "дигитална оферта от Yettel",
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-digital-deal.png"
+            }
+          ],
+          "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
+          "href": "https://www.yettel.bg/bg/ekskluzivna-oferta-v-prilozhenieto-yettel"
         }
       ]
     },
@@ -1456,6 +1445,26 @@
       ]
     },
     {
+      "url": "https://www.yettel.bg/bg/tv-internet/interaktivna-tv/yettel-tv-planove-bez-dogovor",
+      "status": 200,
+      "final_url": "https://www.yettel.bg/bg/tv-internet/interaktivna-tv/yettel-tv-planove-bez-dogovor",
+      "broken": false,
+      "classification": "ok",
+      "error": null,
+      "sources": [
+        {
+          "text": "Yettel TV без договор",
+          "title": "",
+          "area": "header",
+          "section": "Header menu",
+          "element_type": "text/link",
+          "images": [],
+          "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-tv-internet-interaktivna-tv-yettel-tv-planove-bez-dogovor",
+          "href": "/bg/tv-internet/interaktivna-tv/yettel-tv-planove-bez-dogovor"
+        }
+      ]
+    },
+    {
       "url": "https://www.yettel.bg/bg/tv-internet/interaktivna-tv/yettel-tv-kanali",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/tv-internet/interaktivna-tv/yettel-tv-kanali",
@@ -1636,9 +1645,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
+      "url": "https://www.yettel.bg/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
       "status": 200,
-      "final_url": "https://www.yettel.bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
+      "final_url": "https://www.yettel.bg/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1655,8 +1664,8 @@
               "src": "https://www.yettel.bg/sites/default/files/2025-03/tv-more-info.png"
             }
           ],
-          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item.menu-item--expanded > a.nav-link.nav-link--faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
-          "href": "/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
+          "selector": "ul.clearfix.nav > li.nav-item.menu-item--expanded > ul.menu > li.nav-item.menu-item--expanded > a.nav-link.nav-link--bg-faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
+          "href": "/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
         },
         {
           "text": "Въпроси и отговори",
@@ -1665,8 +1674,8 @@
           "section": "Header menu",
           "element_type": "text/link",
           "images": [],
-          "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
-          "href": "/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
+          "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-faqs-yettel-tv-informaciya-za-uslugata-yettel-tv-faq",
+          "href": "/bg/faqs/yettel-tv/informaciya-za-uslugata-yettel-tv-faq"
         }
       ]
     },
@@ -2026,6 +2035,51 @@
           "element_type": "text/link",
           "images": [],
           "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-uslugi-za-teb-100-obekta",
+          "href": "/bg/uslugi/za-teb/100-obekta"
+        },
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "мърч 100-те обекта",
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-100TO-Merch.png"
+            }
+          ],
+          "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
+          "href": "/bg/uslugi/za-teb/100-obekta"
+        },
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "100 обекта - мърч",
+              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-11/Banner_Desktop_100NTS.png?itok=OB7HPYWQ"
+            }
+          ],
+          "selector": "div.container-fluid.full-width > div.full-width-banner > div > div.d-none.d-md-block > a",
+          "href": "/bg/uslugi/za-teb/100-obekta"
+        },
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "100 обекта - мърч",
+              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-11/Banner_Mobile_100NTS.png?itok=OpBon8Oa"
+            }
+          ],
+          "selector": "div.container-fluid.full-width > div.full-width-banner > div > div.d-md-none > a",
           "href": "/bg/uslugi/za-teb/100-obekta"
         }
       ]
@@ -3261,9 +3315,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370",
+      "url": "https://www.yettel.bg/bg/eshop/landing/huawei-oferti-s-otstypka",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370",
+      "final_url": "https://www.yettel.bg/bg/eshop/landing/huawei-oferti-s-otstypka",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3276,72 +3330,12 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "huawei watch d3",
-              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-huawei-launch.png"
+              "alt": "esenni oferti",
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-huawei-launch%20%281%29.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370"
-        },
-        {
-          "text": "Виж повече",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "text/link",
-          "images": [],
-          "selector": "div.text-and-image-component.layout-75_25 > div.text-and-image-left.col-12 > div.button-space > div.button-wrapper.d-inline-block > a",
-          "href": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370"
-        }
-      ]
-    },
-    {
-      "url": "https://www.yettel.bg/bg/go-plus/smart-up",
-      "status": 200,
-      "final_url": "https://www.yettel.bg/bg/go-plus/smart-up",
-      "broken": false,
-      "classification": "ok",
-      "error": null,
-      "sources": [
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "Go+ Smart Up",
-              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers2-banner-SmartUp-oct.png"
-            }
-          ],
-          "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://www.yettel.bg/bg/go-plus/smart-up"
-        }
-      ]
-    },
-    {
-      "url": "https://www.yettel.bg/bg/eshop/devices/smartphones/oppo/oppo-find-x10-pro-max-5g?exact-color=%23777777&storage=512GB&intent=NEW_ACTIVATION&paymentType=CASH&planId=48701-26681-24",
-      "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/devices/smartphones/oppo/oppo-find-x10-pro-max-5g?exact-color=%23777777&storage=512GB&intent=NEW_ACTIVATION&paymentType=CASH&planId=48701-26681-24",
-      "broken": false,
-      "classification": "ok",
-      "error": null,
-      "sources": [
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "oppo x10",
-              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-oppo.png"
-            }
-          ],
-          "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://www.yettel.bg/bg/eshop/devices/smartphones/oppo/oppo-find-x10-pro-max-5g?exact-color=%23777777&storage=512GB&intent=NEW_ACTIVATION&paymentType=CASH&planId=48701-26681-24"
+          "href": "https://www.yettel.bg/bg/eshop/landing/huawei-oferti-s-otstypka"
         }
       ]
     },
@@ -3581,42 +3575,22 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/vyvezhdane-na-evroto",
+      "url": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/vyvezhdane-na-evroto",
+      "final_url": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370",
       "broken": false,
       "classification": "ok",
       "error": null,
       "sources": [
         {
-          "text": "",
+          "text": "Виж повече",
           "title": "",
           "area": "main/page",
           "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "",
-              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2025-12/Desktop%201900x250.png?itok=PimxoOoQ"
-            }
-          ],
-          "selector": "div.container-fluid.full-width > div.full-width-banner > div > div.d-none.d-md-block > a",
-          "href": "/bg/vyvezhdane-na-evroto"
-        },
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "",
-              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2025-12/Mobile%20365x500.png?itok=WZIY0Lz3"
-            }
-          ],
-          "selector": "div.container-fluid.full-width > div.full-width-banner > div > div.d-md-none > a",
-          "href": "/bg/vyvezhdane-na-evroto"
+          "element_type": "text/link",
+          "images": [],
+          "selector": "div.text-and-image-component.layout-75_25 > div.text-and-image-left.col-12 > div.button-space > div.button-wrapper.d-inline-block > a",
+          "href": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23000000&intent=NO_PLAN&paymentType=CASH&deviceBundleSKU=27119370"
         }
       ]
     },
@@ -3942,10 +3916,10 @@
     },
     {
       "url": "https://www.linkedin.com/company/bulgariayettel",
-      "status": 429,
+      "status": 200,
       "final_url": "https://www.linkedin.com/company/bulgariayettel",
       "broken": false,
-      "classification": "review",
+      "classification": "ok",
       "error": null,
       "sources": [
         {
