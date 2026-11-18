@@ -1,13 +1,39 @@
 {
-  "checked_at": "2026-11-17T15:07:18.266871+00:00",
+  "checked_at": "2026-11-18T14:46:10.692606+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 221,
   "checked_link_count": 167,
   "broken_link_count": 0,
-  "review_link_count": 0,
+  "review_link_count": 1,
   "broken_links": [],
-  "review_links": [],
+  "review_links": [
+    {
+      "url": "https://www.instagram.com/yettel/",
+      "status": 429,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
+      "broken": false,
+      "classification": "review",
+      "error": null,
+      "sources": [
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "Instagram",
+              "src": "https://www.yettel.bg/sites/default/files/inline-images/instagram-white.png"
+            }
+          ],
+          "selector": "div.content > div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > a",
+          "href": "https://www.instagram.com/yettel/"
+        }
+      ]
+    }
+  ],
   "all_links": [
     {
       "url": "https://www.yettel.bg/",
@@ -257,7 +283,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=6cf96388-5158-471f-a916-cecfbee7b633&client_id=my-yettel-web-moid&code_challenge=c5dcacda-c036-482d-b13e-2a57ec2bcbff&asid=prodmy-2",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=31e52e9e-e5ee-45f4-8f90-aa9c75c13f2d&client_id=my-yettel-web-moid&code_challenge=78438731-6aa2-4e36-bb79-2889fca84e6f&asid=prodmy-1",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1155,26 +1181,6 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/uslugi/plaschane/onlayn-plaschane-s-kreditnadebitna-karta-prez-yettel-portal",
-      "status": 200,
-      "final_url": "https://www.yettel.bg/bg/uslugi/plaschane/onlayn-plaschane-s-kreditnadebitna-karta-prez-yettel-portal",
-      "broken": false,
-      "classification": "ok",
-      "error": null,
-      "sources": [
-        {
-          "text": "Начини за презареждане",
-          "title": "",
-          "area": "header",
-          "section": "Header menu",
-          "element_type": "text/link",
-          "images": [],
-          "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-uslugi-plaschane-onlayn-plaschane-s-kreditnadebitna-karta-prez-yettel-portal",
-          "href": "/bg/uslugi/plaschane/onlayn-plaschane-s-kreditnadebitna-karta-prez-yettel-portal"
-        }
-      ]
-    },
-    {
       "url": "https://www.yettel.bg/bg/planove/predplateni-planove/predplatena-esim",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/planove/predplateni-planove/predplatena-esim",
@@ -1191,6 +1197,26 @@
           "images": [],
           "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-planove-predplateni-planove-predplatena-esim",
           "href": "/bg/planove/predplateni-planove/predplatena-esim"
+        }
+      ]
+    },
+    {
+      "url": "https://www.yettel.bg/bg/planove/predplateni-planove/predplaten-plan-recharge",
+      "status": 200,
+      "final_url": "https://www.yettel.bg/bg/planove/predplateni-planove/predplaten-plan-recharge",
+      "broken": false,
+      "classification": "ok",
+      "error": null,
+      "sources": [
+        {
+          "text": "Условия за презареждане",
+          "title": "",
+          "area": "header",
+          "section": "Header menu",
+          "element_type": "text/link",
+          "images": [],
+          "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link-https--wwwyettelbg-bg-planove-predplateni-planove-predplaten-plan-recharge",
+          "href": "https://www.yettel.bg/bg/planove/predplateni-planove/predplaten-plan-recharge"
         }
       ]
     },
@@ -3865,9 +3891,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/sites/default/files/2026-11/brochure%20Black%20Friday%20for%20web%20by%20pages.pdf",
+      "url": "https://www.yettel.bg/sites/default/files/2026-11/brochure%20Black%20Friday%20for%20web%20by%20pages_18.11.pdf",
       "status": 200,
-      "final_url": "https://www.yettel.bg/sites/default/files/2026-11/brochure%20Black%20Friday%20for%20web%20by%20pages.pdf",
+      "final_url": "https://www.yettel.bg/sites/default/files/2026-11/brochure%20Black%20Friday%20for%20web%20by%20pages_18.11.pdf",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3881,11 +3907,11 @@
           "images": [
             {
               "alt": "",
-              "src": "https://www.yettel.bg/sites/default/files/inline-images/brochure-Black-Friday-cover.png"
+              "src": "https://www.yettel.bg/sites/default/files/inline-images/cat-nov-lime.png"
             }
           ],
-          "selector": "div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > p > a",
-          "href": "https://www.yettel.bg/sites/default/files/2026-11/brochure%20Black%20Friday%20for%20web%20by%20pages.pdf"
+          "selector": "div.content > div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > a",
+          "href": "/sites/default/files/2026-11/brochure%20Black%20Friday%20for%20web%20by%20pages_18.11.pdf"
         }
       ]
     },
@@ -3941,10 +3967,10 @@
     },
     {
       "url": "https://www.instagram.com/yettel/",
-      "status": 200,
+      "status": 429,
       "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
       "broken": false,
-      "classification": "ok",
+      "classification": "review",
       "error": null,
       "sources": [
         {
