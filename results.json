@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-22T13:45:36.081617+00:00",
+  "checked_at": "2026-11-23T16:47:38.055212+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
-  "discovered_link_count": 221,
-  "checked_link_count": 167,
+  "discovered_link_count": 222,
+  "checked_link_count": 168,
   "broken_link_count": 0,
   "review_link_count": 0,
   "broken_links": [],
@@ -257,7 +257,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=e259853b-fa89-4d59-8b7d-57cefa01f984&client_id=my-yettel-web-moid&code_challenge=a6384ed8-be7d-4bc7-b92d-ed6b90d834be&asid=prodmy-2",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=4211dbff-1d41-429c-ac65-7730b2881e24&client_id=my-yettel-web-moid&code_challenge=96ce5586-8e8e-4128-b6c2-3ebd091905d4&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1570,6 +1570,41 @@
       ]
     },
     {
+      "url": "https://www.yettel.bg/bg/tv-internet/oferti",
+      "status": 200,
+      "final_url": "https://www.yettel.bg/bg/tv-internet/oferti",
+      "broken": false,
+      "classification": "ok",
+      "error": null,
+      "sources": [
+        {
+          "text": "Коледа 2026",
+          "title": "",
+          "area": "header",
+          "section": "Header menu",
+          "element_type": "text/link",
+          "images": [],
+          "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-tv-internet-oferti",
+          "href": "/bg/tv-internet/oferti"
+        },
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "Интернет за дома + телевизор за 25 евро на месец",
+              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-11/hero-banner-desktop-25y-tv-xmas.png?itok=8tpviDIN"
+            }
+          ],
+          "selector": "div.carousel-banners-container.carousel-instance > div.carousel-container > div.carousel-banners-wrapper > div.banner > a.carousel-banners-responsive-link",
+          "href": "https://www.yettel.bg/bg/tv-internet/oferti"
+        }
+      ]
+    },
+    {
       "url": "https://www.yettel.bg/bg/tv-internet/interaktivna-tv/tv-dopalnitelni-paketi",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/tv-internet/interaktivna-tv/tv-dopalnitelni-paketi",
@@ -2045,21 +2080,6 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "мърч 100-те обекта",
-              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-100TO-Merch.png"
-            }
-          ],
-          "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "/bg/uslugi/za-teb/100-obekta"
-        },
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
               "alt": "100 обекта - мърч",
               "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-11/Banner_Desktop_100NTS.png?itok=OB7HPYWQ"
             }
@@ -2161,21 +2181,6 @@
           "images": [],
           "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-uslugi-za-teb-smart-maistor",
           "href": "/bg/uslugi/za-teb/smart-maistor"
-        },
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "Смарт Майстор",
-              "src": "https://www.yettel.bg/sites/default/files/styles/scaled_images_2/public/2026-11/home-banner-desktop-smart-maistor.png?itok=3yHeG5_9"
-            }
-          ],
-          "selector": "div.carousel-banners-container.carousel-instance > div.carousel-container > div.carousel-banners-wrapper > div.banner > a.carousel-banners-responsive-link",
-          "href": "https://www.yettel.bg/bg/uslugi/za-teb/smart-maistor"
         }
       ]
     },
@@ -3186,6 +3191,21 @@
           ],
           "selector": "div.carousel-banners-container.carousel-instance > div.carousel-container > div.carousel-banners-wrapper > div.banner > a.carousel-banners-responsive-link",
           "href": "https://www.yettel.bg/bg/nagradi-v-prilozhenieto-yettel-25-godini-vsichko-svurzano-s-teb"
+        },
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "",
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-go%2B.png"
+            }
+          ],
+          "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
+          "href": "https://www.yettel.bg/bg/nagradi-v-prilozhenieto-yettel-25-godini-vsichko-svurzano-s-teb"
         }
       ]
     },
@@ -3315,9 +3335,9 @@
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/eshop/landing/huawei-oferti-s-otstypka",
+      "url": "https://www.yettel.bg/bg/go-plus/smart-up",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/eshop/landing/huawei-oferti-s-otstypka",
+      "final_url": "https://www.yettel.bg/bg/go-plus/smart-up",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3330,19 +3350,19 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "esenni oferti",
-              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-huawei-launch%20%281%29.png"
+              "alt": "",
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-SmartUp-oct%20%281%29.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://www.yettel.bg/bg/eshop/landing/huawei-oferti-s-otstypka"
+          "href": "https://www.yettel.bg/bg/go-plus/smart-up"
         }
       ]
     },
     {
-      "url": "https://www.yettel.bg/bg/rouming/rouming-paketi/paket-drugi-destinacii",
+      "url": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23A47C67&intent=NEW_ACTIVATION&paymentType=CASH&isPlanFirst=true&deviceBundleSKU=27119372",
       "status": 200,
-      "final_url": "https://www.yettel.bg/bg/rouming/rouming-paketi/paket-drugi-destinacii",
+      "final_url": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23A47C67&intent=NEW_ACTIVATION&paymentType=CASH&isPlanFirst=true&deviceBundleSKU=27119372",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3355,12 +3375,12 @@
           "element_type": "image",
           "images": [
             {
-              "alt": "Роуминг оферта - други държави по света",
-              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-roaming-others.png"
+              "alt": "Huawei Watch D3",
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-huawei-launch_0.png"
             }
           ],
           "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "/bg/rouming/rouming-paketi/paket-drugi-destinacii"
+          "href": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23A47C67&intent=NEW_ACTIVATION&paymentType=CASH&isPlanFirst=true&deviceBundleSKU=27119372"
         }
       ]
     },
@@ -3892,7 +3912,7 @@
     {
       "url": "https://www.facebook.com/BulgariaYettel",
       "status": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FBulgariaYettel",
+      "final_url": "https://www.facebook.com/BulgariaYettel",
       "broken": false,
       "classification": "ok",
       "error": null,
