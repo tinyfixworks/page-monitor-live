@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-24T16:42:02.486746+00:00",
+  "checked_at": "2026-11-25T16:25:18.081853+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 222,
@@ -283,7 +283,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=1d9bea3d-ed40-4734-874f-84dd6072a004&client_id=my-yettel-web-moid&code_challenge=201024a3-ad1d-4e47-a863-fa92247b3800&asid=prodmy-2",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=6af38bb3-d370-405b-9174-42abfa1afddd&client_id=my-yettel-web-moid&code_challenge=7b4274de-13fa-4a3b-8bc9-545423b6c25c&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -3948,7 +3948,7 @@
     {
       "url": "https://www.facebook.com/BulgariaYettel",
       "status": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FBulgariaYettel",
+      "final_url": "https://www.facebook.com/BulgariaYettel",
       "broken": false,
       "classification": "ok",
       "error": null,
