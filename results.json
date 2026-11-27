@@ -1,39 +1,13 @@
 {
-  "checked_at": "2026-11-26T15:59:20.086341+00:00",
+  "checked_at": "2026-11-27T15:48:28.347761+00:00",
   "source_url": "https://www.yettel.bg/",
   "homepage_final_url": "https://www.yettel.bg/bg",
   "discovered_link_count": 222,
-  "checked_link_count": 167,
+  "checked_link_count": 168,
   "broken_link_count": 0,
-  "review_link_count": 1,
+  "review_link_count": 0,
   "broken_links": [],
-  "review_links": [
-    {
-      "url": "https://www.instagram.com/yettel/",
-      "status": 429,
-      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
-      "broken": false,
-      "classification": "review",
-      "error": null,
-      "sources": [
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "Instagram",
-              "src": "https://www.yettel.bg/sites/default/files/inline-images/instagram-white.png"
-            }
-          ],
-          "selector": "div.content > div.layout.layout--onecol > div.layout__region.layout__region--content > div.clearfix.text-formatted > a",
-          "href": "https://www.instagram.com/yettel/"
-        }
-      ]
-    }
-  ],
+  "review_links": [],
   "all_links": [
     {
       "url": "https://www.yettel.bg/",
@@ -283,7 +257,7 @@
     {
       "url": "https://my.yettel.bg/",
       "status": 200,
-      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=a742e745-d30b-4241-a7b0-42cca96e961b&client_id=my-yettel-web-moid&code_challenge=df9ebc52-c1c5-4301-9dd2-9df66f2ff3d2&asid=prodmy-1",
+      "final_url": "https://id.yettel.bg/oauth/authorize?ui_locales=bg&redirect_uri=https%3A%2F%2Fmy.yettel.bg%2Foauthlogin&state=19ca6930-67c3-4526-a619-af2d1404ca03&client_id=my-yettel-web-moid&code_challenge=1934ebdc-7a70-45e2-9959-3669b33fe660&asid=prodmy-2",
       "broken": false,
       "classification": "ok",
       "error": null,
@@ -1087,21 +1061,6 @@
           "images": [],
           "selector": "ul.menu > li.nav-item.menu-item--expanded > ul.menu > li.nav-item > a.nav-link.nav-link--bg-ekskluzivna-oferta-v-prilozhenieto-yettel",
           "href": "/bg/ekskluzivna-oferta-v-prilozhenieto-yettel"
-        },
-        {
-          "text": "",
-          "title": "",
-          "area": "main/page",
-          "section": "",
-          "element_type": "image",
-          "images": [
-            {
-              "alt": "дигитална оферта от Yettel",
-              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-digital-deal.png"
-            }
-          ],
-          "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
-          "href": "https://www.yettel.bg/bg/ekskluzivna-oferta-v-prilozhenieto-yettel"
         }
       ]
     },
@@ -3416,6 +3375,31 @@
       ]
     },
     {
+      "url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22new-from-apple%22%5D%7D%5D",
+      "status": 200,
+      "final_url": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22new-from-apple%22%5D%7D%5D",
+      "broken": false,
+      "classification": "ok",
+      "error": null,
+      "sources": [
+        {
+          "text": "",
+          "title": "",
+          "area": "main/page",
+          "section": "",
+          "element_type": "image",
+          "images": [
+            {
+              "alt": "оферта iphone pro и pro max",
+              "src": "https://www.yettel.bg/sites/default/files/2026-11/top-offers-banner-iphone%2018%20pro%20and%20pro%20max_0.png"
+            }
+          ],
+          "selector": "div.four-carousel-container > div.banners-wrapper > div.four-carousel-banner > div.banner-image > a.responsive-link",
+          "href": "https://www.yettel.bg/bg/eshop/device-gallery?category=SMARTPHONES&paymentType=LEASE&filter=%5B%7B%22code%22%3A%22promo_tags%22%2C%22values%22%3A%5B%22new-from-apple%22%5D%7D%5D"
+        }
+      ]
+    },
+    {
       "url": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23A47C67&intent=NEW_ACTIVATION&paymentType=CASH&isPlanFirst=true&deviceBundleSKU=27119372",
       "status": 200,
       "final_url": "https://www.yettel.bg/bg/eshop/devices/smart_wearables/huawei/huawei-watch-d3?exact-color=%23A47C67&intent=NEW_ACTIVATION&paymentType=CASH&isPlanFirst=true&deviceBundleSKU=27119372",
@@ -3997,10 +3981,10 @@
     },
     {
       "url": "https://www.instagram.com/yettel/",
-      "status": 429,
+      "status": 200,
       "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyettel%2F&is_from_rle",
       "broken": false,
-      "classification": "review",
+      "classification": "ok",
       "error": null,
       "sources": [
         {
